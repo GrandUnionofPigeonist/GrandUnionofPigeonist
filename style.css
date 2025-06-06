@@ -89,7 +89,7 @@ body {
 }
 
 .proofLinkContainer a {
-  color: #ffffff; /* cyan link color, you can change */
+  color: #ffffff;
   text-decoration: underline;
   font-size: 1.2rem;
   cursor: pointer;
@@ -97,6 +97,6 @@ body {
 }
 
 .proofLinkContainer a:hover {
-  color: #0004ff; /* hover color */
+  color: #0004ff;
 }
 
