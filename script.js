@@ -12,7 +12,7 @@ introScreen.addEventListener("click", () => {
 
     requestAnimationFrame(() => {
       mainScreen.style.opacity = "1";
-      footer.classList.add("show"); // ✅ Keep footer always showing
+      footer.classList.add("show");
     });
 
     music.play();
