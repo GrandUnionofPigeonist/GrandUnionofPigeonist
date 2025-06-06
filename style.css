@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'BondFont';
+  src: url('assets/font.ttf');
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: 'BondFont', sans-serif;
+  overflow: hidden;
+}
+
+.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 1.5s ease;
+  z-index: 10;
+}
+
+.centered h1 {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+  opacity: 0;
+}
+
+#mainScreen {
+  flex-direction: column;
+  gap: 40px;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+.header {
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+.imageContainer {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.person {
+  text-align: center;
+}
+
+.person img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.name {
+  font-size: 1.3rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.proofLinkContainer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.proofLinkContainer a {
+  color: #ffffff; /* cyan link color, you can change */
+  text-decoration: underline;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.proofLinkContainer a:hover {
+  color: #0004ff; /* hover color */
+}
+
