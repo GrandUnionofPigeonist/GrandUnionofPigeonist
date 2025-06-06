@@ -1,4 +1,4 @@
-## Hi there 👋
+## open source if you would like to look over the code I don't really care I rushed this anyways.
 
 <!--
 **GrandUnionofPigeonist/GrandUnionofPigeonist** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
